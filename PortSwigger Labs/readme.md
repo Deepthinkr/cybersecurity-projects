@@ -1,48 +1,48 @@
-# Web Security Labs – PortSwigger
+# Web Security Labs – PortSwigger Academy
 
-This repository documents my progress and takeaways from hands-on web application security labs completed on [PortSwigger.net](https://portswigger.net), the creators of Burp Suite. These labs are designed to simulate real-world vulnerabilities and help security professionals understand how they work from both offensive and defensive perspectives.
+This repository contains my notes, reflections, and key learnings from hands-on labs completed on [PortSwigger Web Security Academy](https://portswigger.net/web-security). These labs simulate real-world web application vulnerabilities and provide practical experience in identifying and exploiting them using tools like Burp Suite.
 
 ## ✅ Completed Labs
 
 - **SQL Injection (SQLi)**  
-  Explored how injection flaws can manipulate database queries and lead to unauthorized data access.
+  Practiced identifying and exploiting injection points to extract data and bypass authentication.
 
 - **Cross-Site Request Forgery (CSRF)**  
-  Learned how attackers can trick users into performing actions they didn’t intend, and how to implement defenses.
+  Learned how attackers can trick authenticated users into performing unintended actions.
 
-- **Access Control Vulnerabilities**  
-  Identified flaws in broken access controls that allow privilege escalation or unauthorized access.
+- **Server-Side Template Injection (SSTI)**  
+  Discovered how template engines can be abused to execute arbitrary code on the server.
 
-- **Authentication Vulnerabilities**  
-  Analyzed weaknesses in login mechanisms, token handling, and session management.
+- **Broken Authentication**  
+  Explored common authentication flaws such as brute force, weak session handling, and credential stuffing.
 
-## 💡 Key Learnings
+- **Broken Access Control**  
+  Worked on identifying insecure direct object references (IDOR), privilege escalation issues, and path-based access flaws.
 
-- How to recognize common web vulnerabilities in code and behavior  
-- Practical use of Burp Suite for intercepting and manipulating web traffic  
-- Importance of input validation, session security, and proper access control  
-- Defensive coding and configuration practices to mitigate these threats
+## 🔍 Key Takeaways
 
-## 🔧 Tools Used
+- Improved understanding of how vulnerabilities are introduced during development  
+- Gained practical experience using Burp Suite for manual testing and automation  
+- Strengthened my ability to analyze HTTP requests and identify security flaws  
+- Learned mitigation strategies and best practices for secure web application development
 
-- Burp Suite Community Edition  
-- Browser Developer Tools  
-- PortSwigger Labs Platform
+## 🛠 Tools Used
 
-## 📚 Resources
+- **Burp Suite Community Edition**  
+- Web browser developer tools  
+- PortSwigger Lab Environment
+
+## 📚 References
 
 - [PortSwigger Web Security Academy](https://portswigger.net/web-security)
-- OWASP Top 10 – 2021
+- [OWASP Top 10 – 2021](https://owasp.org/Top10/)
 
-## 🚧 Work in Progress
+## 📂 Structure
 
-More labs are on the way! Upcoming topics include:
-- XSS (Cross-Site Scripting)
-- SSRF (Server-Side Request Forgery)
-- File Upload Vulnerabilities
+- `/notes/` – Lab summaries and key observations  
+- `/screenshots/` – Screenshots of successful lab completions 
+
 
 ---
 
-Feel free to check out the labs or reach out if you’re learning something similar. Collaboration and feedback are always welcome!
-
-
+This repo is part of my ongoing learning journey in web application security and ethical hacking. Contributions, questions, and feedback are welcome!
