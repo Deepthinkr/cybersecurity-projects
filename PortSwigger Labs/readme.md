@@ -28,7 +28,7 @@ This repository contains my notes, reflections, and key learnings from hands-on 
 
 ## 🛠 Tools Used
 
-- **Burp Suite Community Edition**  
+- **Burp Suite Professional Edition**  
 - Web browser developer tools  
 - PortSwigger Lab Environment
 
